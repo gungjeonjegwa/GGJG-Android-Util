@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = "com.ggjg.api_call"
+    namespace = "com.ggjg.library"
     compileSdk = 33
 
     defaultConfig {

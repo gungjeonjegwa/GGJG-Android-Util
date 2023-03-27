@@ -1,8 +1,9 @@
-package com.ggjg.api_call.handler
+package com.ggjg.library.handler
 
 import android.util.Log
-import com.ggjg.api_call.handler.event.ErrorEvent
-import com.ggjg.api_call.handler.exceion.*
+import com.ggjg.library.event.ErrorEvent
+import com.ggjg.library.exceion.*
+import com.ggjg.library.handler.exceion.*
 
 suspend fun Throwable.errorHandling(
     moreDataAction: suspend () -> Unit = {},

@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "GGJGLibrary"
-include(":api_call")
+include(":library")

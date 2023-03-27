@@ -1,4 +1,4 @@
-package com.ggjg.api_call.handler.event
+package com.ggjg.library.event
 
 sealed class ErrorEvent {
     object MoreDataError : ErrorEvent()
