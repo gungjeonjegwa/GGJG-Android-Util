@@ -1,9 +1,7 @@
-package com.ggjg.library.handler
+package handler
 
-import android.util.Log
-import com.ggjg.library.event.ErrorEvent
-import com.ggjg.library.exceion.*
-import com.ggjg.library.handler.exceion.*
+import exceion.*
+import event.ErrorEvent
 
 suspend fun Throwable.errorHandling(
     moreDataAction: suspend () -> Unit = {},
@@ -41,5 +39,5 @@ suspend fun Throwable.errorHandling(
     }
 
 private fun errorLog(tag: String, msg: String?) {
-    Log.d("ErrorHandling-$tag", msg ?: "알 수 없는 오류")
+    println("Error : $tag / msg : ${msg ?: "알 수 없는 오류"}")
 }

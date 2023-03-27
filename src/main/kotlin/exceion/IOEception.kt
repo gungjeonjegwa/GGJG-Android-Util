@@ -1,4 +1,4 @@
-package com.ggjg.library.exceion
+package exceion
 
 import java.io.IOException
 
