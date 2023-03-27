@@ -1,7 +1,7 @@
-package handler
+package com.ggjg.library.handler
 
-import exceion.*
-import event.ErrorEvent
+import com.ggjg.library.exceion.*
+import com.ggjg.library.event.ErrorEvent
 
 suspend fun Throwable.errorHandling(
     moreDataAction: suspend () -> Unit = {},

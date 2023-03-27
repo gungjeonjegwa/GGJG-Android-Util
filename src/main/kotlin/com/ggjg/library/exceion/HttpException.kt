@@ -1,4 +1,4 @@
-package exceion
+package com.ggjg.library.exceion
 
 class MoreDataException : RuntimeException()
 
