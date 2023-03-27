@@ -24,7 +24,7 @@ tasks.withType<KotlinCompile> {
 publishing {
     publications {
         create("maven-public", MavenPublication::class) {
-            groupId = "com.ggjg.android"
+            groupId = "com.ggjg"
             artifactId = "util"
             version = "1.0.0"
             from(components.getByName("java"))
